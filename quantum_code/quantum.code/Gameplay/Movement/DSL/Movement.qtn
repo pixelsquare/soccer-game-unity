@@ -1,0 +1,7 @@
+﻿asset MovementConfig;
+
+component Movement
+{
+    asset_ref<MovementConfig> config;
+    [ExcludeFromPrototype] Direction direction;
+}

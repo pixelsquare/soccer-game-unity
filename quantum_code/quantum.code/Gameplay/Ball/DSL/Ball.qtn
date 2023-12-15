@@ -1,0 +1,6 @@
+﻿component BallTag { }
+
+component BallOwner
+{
+    PlayerRef playerRef;
+}

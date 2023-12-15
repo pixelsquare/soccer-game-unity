@@ -1,0 +1,7 @@
+﻿flags Direction : Byte
+{
+    Up,
+    Down,
+    Left,
+    Right,
+}

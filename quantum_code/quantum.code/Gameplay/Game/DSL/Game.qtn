@@ -1,0 +1,31 @@
+﻿#define MAX_PLAYERS 4
+#pragma max_players 4
+
+global
+{
+    dictionary<int, PlayerData> playerDataMap;
+}
+
+struct PlayerData
+{
+    int score;
+    bool blockUsed;
+}
+
+event OnPlayerConnected
+{
+    PlayerRef playerRef;
+}
+
+synced event OnGameScoreUpdated
+{
+    GameInfo gameInfo;
+}
+
+struct GameInfo
+{
+    dictionary<int, PlayerData> playerDataMap;
+}
+
+signal OnGameStart();
+signal OnGameReset();

@@ -1,0 +1,7 @@
+﻿input
+{
+    Button MoveForward;
+    Button MoveBack;
+    Button MoveLeft;
+    Button MoveRight;
+}

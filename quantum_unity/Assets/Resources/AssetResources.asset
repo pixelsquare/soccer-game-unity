@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6dd8e95ae0daaec4496511105240e8a3, type: 3}
   m_Name: AssetResources
   m_EditorClassIdentifier: 
-  AddressablesGroup:
-    _resources: []
   AssetBundlesGroup:
     _resources: []
   ResourcesGroup:
@@ -43,13 +41,48 @@ MonoBehaviour:
         Id:
           Value: 5
       ResourcePath: DB/Configs/SimulationConfig
+    - Path: Resources/DB/SoccerGame/Prefabs/BallEntity|EntityView
+      AssetRef:
+        Id:
+          Value: 15360337647957723
+      ResourcePath: DB/SoccerGame/Prefabs/BallEntity
+    - Path: Resources/DB/SoccerGame/Prefabs/PlayerEntity|EntityView
+      AssetRef:
+        Id:
+          Value: 1020042857135632016
+      ResourcePath: DB/SoccerGame/Prefabs/PlayerEntity
     - Path: Resources/DB/Map1_mesh
       AssetRef:
         Id:
           Value: 1090595483060781529
       ResourcePath: DB/Map1_mesh
+    - Path: Resources/DB/SoccerGame/Prefabs/BallEntity|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 1174932102275638980
+      ResourcePath: DB/SoccerGame/Prefabs/BallEntity
     - Path: Resources/DB/Map1
       AssetRef:
         Id:
           Value: 1710471675203725834
       ResourcePath: DB/Map1
+    - Path: Resources/DB/SoccerGame/Map/SoccerMap_mesh
+      AssetRef:
+        Id:
+          Value: 2206429978465100308
+      ResourcePath: DB/SoccerGame/Map/SoccerMap_mesh
+    - Path: Resources/DB/SoccerGame/Map/SoccerMap
+      AssetRef:
+        Id:
+          Value: 2424056835034271032
+      ResourcePath: DB/SoccerGame/Map/SoccerMap
+    - Path: Resources/DB/SoccerGame/Configs/MovementConfig
+      AssetRef:
+        Id:
+          Value: 2936610388606073266
+      ResourcePath: DB/SoccerGame/Configs/MovementConfig
+    - Path: Resources/DB/SoccerGame/Prefabs/PlayerEntity|EntityPrototype
+      AssetRef:
+        Id:
+          Value: 4461555542034015067
+      ResourcePath: DB/SoccerGame/Prefabs/PlayerEntity

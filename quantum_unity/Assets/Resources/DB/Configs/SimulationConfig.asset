@@ -70,7 +70,7 @@ MonoBehaviour:
         RawValue: 1310
       AngularSleepToleranceInRad:
         RawValue: 2286
-      AllowCCD: 0
+      AllowCCD: 1
       CCDLinearVelocityThreshold:
         RawValue: 196608
       CCDAngularVelocityThreshold:
